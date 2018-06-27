@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Author" content="" />
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>바이블 25</title>
+<link rel="stylesheet" href="../css/style.css" />
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="../js/jquery.bxslider.min.js"></script>
+<script src="../js/ui.js" ></script>
+</head>
+
+<body class="login">
+<div class="accessbility"><a href="#contents">본문 바로가기</a></div>
+<div id="wrapper">
+    <header id="header" class="clearfix"><!-- header -->
+        <div class="articleBlock">
+            <h1>로그인</h1>
+            <p class="btnLeft"><a href="#"><img src="../img/btn_prev.png" width="12" alt="뒤로"></a></p>
+        </div>
+    </header><!-- //header -->
+    <aside id="menuArea"><!-- leftMenu -->
+        <div class="menuWrap">
+            <header class="menuHeader clearfix">
+                <h1><img src="../img/img_logo_menu.png" width="80" alt="바이블25"></h1>
+                <a href="#" class="btn_home"><img src="../img/ico_home.png" width="24" alt="홈으로"></a>
+            </header>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#">오늘</a>
+                        <ul>
+                            <li><a href="#">말씀따라</a></li>
+                            <li><a href="#">컬럼</a></li>
+                            <li><a href="#">십자가</a></li>
+                            <li><a href="#">매일아침</a></li>
+                            <li><a href="#">오늘한컷</a></li>
+                            <li><a href="#">축복기도</a></li>
+                            <li><a href="#">손편지</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기독교 뉴스</a>
+                        <ul>
+                            <li><a href="#">말씀따라</a></li>
+                            <li><a href="#">컬럼</a></li>
+                            <li><a href="#">십자가</a></li>
+                            <li><a href="#">매일아침</a></li>
+                            <li><a href="#">오늘한컷</a></li>
+                            <li><a href="#">축복기도</a></li>
+                            <li><a href="#">손편지</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">성경연구</a>
+                        <ul>
+                            <li><a href="#">말씀따라</a></li>
+                            <li><a href="#">컬럼</a></li>
+                            <li><a href="#">십자가</a></li>
+                            <li><a href="#">매일아침</a></li>
+                            <li><a href="#">오늘한컷</a></li>
+                            <li><a href="#">축복기도</a></li>
+                            <li><a href="#">손편지</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">성경사전</a>
+                        <ul>
+                            <li><a href="#">말씀따라</a></li>
+                            <li><a href="#">컬럼</a></li>
+                            <li><a href="#">십자가</a></li>
+                            <li><a href="#">매일아침</a></li>
+                            <li><a href="#">오늘한컷</a></li>
+                            <li><a href="#">축복기도</a></li>
+                            <li><a href="#">손편지</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">새신자 가이드</a>
+                    </li>
+                    <li>
+                        <a href="#">포토 성경사전</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <p class="btnCLose"><button type="button"><img src="../img/btn_closeMenu.png" width="25" alt="닫기"></button></p>
+    </aside><!-- //leftMenu -->
+    <section id="contentsArea">
+        <article id="contents"> <!-- contents -->
+            <div class="loginArea">
+                <div class="loginCon">
+                    <h2>SNS계정을 통해 <br> 로그인 할 수 있습니다.</h2>
+                    <ul class="loginBtn">
+                        <li><a href="#"><img src="../img/btn_naver.png" height="64" alt="" onclick="layer_init('naver');return false;"></a></li>
+                        <li class="mT15"><a href="#"><img src="../img/btn_kakao.png" height="64" alt=""  onclick="layer_init('kakao');return false;"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </article><!-- //contents -->
+    </section>
+</div>
+
+<aside class="lightBoxArea">
+    <div class="popupWrap loginPop"  data-role="naver">
+        <h2>네이버 계정 연동이 필요합니다. <br>네이버 계정을 통해 회원가입을 하시겠습니까?</h2>
+        <p class="tC mT25"><button class="btn btn-l btn-blue">확인</button></p>
+        <p class="tC mT10"><button class="btn btn-l btn-white" onclick="layer_close(this);">취소</button></p>
+    </div>
+    <div class="popupWrap loginPop"  data-role="kakao">
+        <h2>카카오 계정 연동이 필요합니다. <br>카카오 계정을 통해 회원가입을 하시겠습니까?</h2>
+        <p class="tC mT25"><button class="btn btn-l btn-blue">확인</button></p>
+        <p class="tC mT10"><button class="btn btn-l btn-white" onclick="layer_close(this);">취소</button></p>
+    </div>
+</aside>
+
+</body>
+</html>
